@@ -21,4 +21,4 @@ $ ./client 127.0.0.1 8081
 
 Example output:
 
-![alt text](https://github.com/AtreidesFinancial/socket_server_client_v01/blob/master/TCPIP_ClientServer_v01.png "Example output")
+![alt text](https://github.com/engrvivs/c-ipc/blob/master/socket_server_client_v01/TCPIP_ClientServer_v01.png "Example output")
