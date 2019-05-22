@@ -1,2 +1,1 @@
-# c-ipc
-Inter-Process Communication
+# Inter-Process Communication between a Client and a Server
