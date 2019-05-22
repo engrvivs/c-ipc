@@ -1,6 +1,10 @@
 # Inter-Process Communication between a Client and a Server through Sockets
 
 
+## Limitations
+..* Server handles *only* one connection and, then, dies!
+
+
 Execute the following commands on Linux shell terminal
 
 ## 1. One time compilation of C programs
