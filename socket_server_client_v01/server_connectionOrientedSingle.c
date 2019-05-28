@@ -74,7 +74,7 @@ int main(int argc, char const *argv[]) {
 
     /* [1.5]
      * <optional> 
-     * to manipulate cocket's options
+     * to manipulate socket's options
      * allows reuse of address and port
      * prevents error, like, “address already in use”
      * Forcefully attaching socket to the port 8080 
