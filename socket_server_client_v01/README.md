@@ -1,8 +1,18 @@
 # Inter-Process Communication between a Client and a Server through Sockets
 
 
-## Limitations
-..* Server handles *only* one connection and, then, dies!
+## Single Connection-oriented Server:
+
+### Limitations
+⋅⋅* Server handles *only* one connection and, then, dies!
+
+
+## Concurrent Connection-oriented Server:
+
+### Features
+⋅⋅* Server runs *indefinitely*
+⋅⋅* Server can handle multiple connections, *simultaneously*
+⋅⋅⋅ each new connection forks off its own new process
 
 
 Execute the following commands on Linux shell terminal
@@ -10,7 +20,7 @@ Execute the following commands on Linux shell terminal
 ## 1. One time compilation of C programs
 **NOTE**: gcc version at my end was 5.4.0 20160609
 ```shell
-$ gcc server.c -o server
+$ gcc server_connectionOrientedConcurrent.c -o server
 $ gcc client.c -o client
 ```
 ## 2. First start server with any port number (preferably > 2000)
